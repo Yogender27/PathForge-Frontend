@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
   return (
-    <div className="bg-mine-shaft-950 w-full h-20 text-white flex justify-between items-center p-2">
+    <div className="bg-mine-shaft-950 w-full h-20 text-white flex justify-between items-center p-2  font-['poppins']  ">
       <div className=" flex items-center gap-2 text-bright-sun-400 ">
         <IconBinoculars stroke={1} className="h-10 w-10" />
         <h1 className=" text-2xl font-semibold ">PathForge</h1>
